@@ -1,18 +1,19 @@
 #Beanstalkd RPC
 
-#Description
+##Description
 Beanstalkd RPC for Go with gin-gonic syntax
 
-#Installation
+##Installation
     go get github.com/MarinX/beanrpc
 
-#TODO and Notes
+##TODO and Notes
 * Better parsing handler
 * Notify for unregistered methods, methods that are not registred, will be deleted from queue
 * ...
 
 
-#Example
+##Example
+```go
     // beanrpc
     package main
 
@@ -90,9 +91,10 @@ Beanstalkd RPC for Go with gin-gonic syntax
 		    Age:  22,
 	    }, 1)
     }
+```
 
-
-#License
+##License
 This library is under the MIT License
-#Author
+
+##Author
 Marin Basic 
