@@ -4,7 +4,7 @@
 Beanstalkd RPC for Go with gin-gonic syntax
 
 ## Installation
-    ```go get github.com/MarinX/beanrpc```
+    go get github.com/MarinX/beanrpc
 
 ## TODO and Notes
 * Better parsing handler
